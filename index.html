@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VERVE</title>
+    <link rel="stylesheet" href="./styles/aboutus.css">
+    <link rel="stylesheet" href="./styles/events.css">
+    <link rel="stylesheet" href="./styles/landing.css">
+    <script async defer src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script async defer
+        src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <link rel="stylesheet" href="./aboutus.css" class="css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script async defer src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+    <script async defer src="./scripts/leaflet-tilelayer-colorfilt.js"></script>
+    <script async defer src="./scripts/aboutus.js"></script>
+    <script async defer src="./scripts/events.js"></script>
+</head>
+
+<body onload="animate()">
+
+    <section id="landing">
+        <nav>
+            <label>
+                <input type='checkbox'>
+                <span class='menu'> <span class='hamburger'></span> </span>
+                <ul>
+                    <li> <a href='#'>Home</a> </li>
+                    <li> <a href='#'>Events</a> </li>
+                    <li> <a href='#'>Sponsors</a> </li>
+                    <li> <a href='#'>How To Reach Here</a> </li>
+                    <li> <a href='#'>Contact Us</a> </li>
+                </ul>
+            </label>
+        </nav>
+
+        <header class="v-header container">
+            <div class="fullscreen-video-wrap">
+
+                <video src="./assets/test.mp4" autoplay loop muted>
+                </video>
+            </div>
+            <!-- <div class="header-overlay"></div> -->
+            <div class="header-content text-md-center">
+                <h1>Verve</h1>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p> -->
+                <!-- <a class="btn">Find Out More</a> -->
+            </div>
+
+        </header>
+
+
+        <div class="arrow-down"></div>
+    </section>
+    <section style="height: 23vh;"></section>
+
+    <!-- End of section -->
+
+
+
+    <section class="eventsStyle" id="events">
+        <div id="eventDiv1" class="">
+            <div class="mainEventInner">
+                <div></div>
+                <div>Content 1</div>
+                <div></div>
+            </div>
+
+        </div>
+        <div id="eventDiv2" class="">
+            <div class="mainEventInner">
+                <div></div>
+                <div>Content 2</div>
+                <div></div>
+            </div>
+        </div>
+        <div id="eventDiv3" class="">
+            <div class="mainEventInner">
+                <div></div>
+                <div>Content 3</div>
+                <div></div>
+            </div>
+        </div>
+        <div id="eventDiv4" class="">
+            <div class="mainEventInner">
+                <div></div>
+                <div>Content 4</div>
+                <div></div>
+            </div>
+        </div>
+        <div id="eventDiv5" class="">
+            <div class="mainEventInner">
+                <div></div>
+                <div>Content 5</div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of section -->
+
+    <section id="aboutUs">
+        <div id="mapid"></div>
+        <div class="aboutContainer">
+            <div class="column1As">
+                <h2></h2>
+            </div>
+            <div class="divider"></div>
+            <div class="column2As">
+                <p class="catchy" style="padding: 6px;"></p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

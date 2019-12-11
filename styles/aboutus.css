@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #2A9D8F;
+    overflow-x: hidden;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+.containerFull {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+#aboutUs {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+#mapid {
+    height: 65vh;
+}
+
+.aboutContainer {
+    height: 35vh;
+    display: flex;
+    width: 100%;
+}
+
+.column1As {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.column2As {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    background-color: black;
+    height: 100%;
+    width: 2px;
+}
+
+.column2As>p {
+    color: #264653;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.column1As>h2 {
+    -webkit-animation: antiClockwiseSpin 4s linear;
+    animation: antiClockwiseSpin 0.1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes antiClockwiseSpin {
+    0% {
+        transform: rotate(360deg);
+        font-size: 100%;
+    }
+    100% {
+        transform: rotate(270deg);
+        font-size: 150%;
+    }
+}
+
+@keyframes antiClockwiseSpin {
+    0% {
+        transform: rotate(360deg);
+        font-size: 100%;
+    }
+    100% {
+        transform: rotate(270deg);
+        font-size: 150%;
+    }
+}

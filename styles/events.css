@@ -1,0 +1,95 @@
+.blind-content.origin-top {
+    transform-origin: top;
+}
+
+.blind-content.in {
+    -webkit-animation: blind-in 1s;
+    animation: blind-in 1s;
+}
+
+
+@-webkit-keyframes blind-in {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@-webkit-keyframes blind-out {
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes blind-in {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes blind-out {
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(0);
+    }
+}
+
+#eventDiv1 {
+    height: 50vh;
+    background-color: #2a9d8f;
+    grid-area: mainEvent;
+}
+
+#eventDiv2 {
+    height: 25vh;
+    width: 50vw;
+    background-color: #e9c46a;
+    grid-area: event1;
+}
+
+#eventDiv3 {
+    height: 25vh;
+    width: 50vw;
+    background-color: #f4a261;
+    grid-area: event2;
+}
+
+#eventDiv4 {
+    height: 25vh;
+    width: 50vw;
+    background-color: #e76f51;
+    grid-area: event3;
+}
+
+#eventDiv5 {
+    height: 25vh;
+    width: 50vw;
+    background-color: #264653;
+    grid-area: event4;
+}
+
+.eventsStyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr 2.5fr 2.5fr;
+    grid-template-areas: "mainEvent mainEvent" "event1    event2" "event3    event4";
+    height: 100vh;
+    width: 100%;
+}
+
+.mainEventInner {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+}
