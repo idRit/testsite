@@ -15,5 +15,5 @@ var marker = L.marker([19.0216, 72.8707]).addTo(mymap);
 
 async function animate() {
     document.querySelector('.catchy').innerHTML = ' Lorem ipsum dolor sit amet consectetur accusamus quia eveniet at sit minus! Expedita, voluptas vel?';
-    document.querySelector('.column1As > h2').innerHTML = 'ABOUT US';
+    document.querySelector('.column1As > h2').innerHTML = 'CONTACT US';
 }

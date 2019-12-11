@@ -34,13 +34,13 @@ section {
 }
 
 #mapid {
-    height: 65vh;
+    height: 50vh;
     pointer-events: none;
     /* z-index: -1; */
 }
 
 #mapid2 {
-    height: 65vh;
+    height: 50vh;
     z-index: -1;
     display: flex;
     justify-content: space-evenly;
@@ -48,9 +48,17 @@ section {
 }
 
 .aboutContainer {
-    height: 35vh;
+    height: 45vh;
     display: flex;
     width: 100%;
+}
+
+.footer {
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .column1As {
@@ -85,6 +93,7 @@ section {
 }
 
 .column1As>h2 {
+    text-align: center;
     -webkit-animation: antiClockwiseSpin 4s linear;
     animation: antiClockwiseSpin 0.1s linear;
     animation-fill-mode: forwards;

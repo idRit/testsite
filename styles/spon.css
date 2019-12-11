@@ -2,72 +2,70 @@
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  padding: 20px;
-
+  padding: 5px;
+  justify-content: space-evenly;
 }
 
-.flex-container > div {
+.flex-container>div {
   background-color: #ffffff;
   width: 60px;
   margin: 10px;
   text-align: center;
   line-height: 100px;
   font-size: 60px;
-  border: 1px ;
+  border: 1px;
   background-color: white;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
 }
 
-.body {
- 
-  margin: 8px;
-  font-family: sans-serif;
-  
-
+.sponContainer {
+  height: 50vh;
 }
 
+#sponsors {
+  height: 100vh;
+}
 
-.flex-container > div > img{
+.flex-container>div>img {
   transform: translateY(-140%);
-    display: inline-block;
-    z-index: 10;
-    transition: 1.0s;
+  display: inline-block;
+  z-index: 10;
+  transition: 1.0s;
   display: block;
   position: relative;
-    text-transform: capitalize;
-    font-weight: 900;
-    font-size: 42px;
-    overflow: visible;
-
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 42px;
+  overflow: visible;
 }
 
-.flex-container > div > img:hover {
- 
-}
+.flex-container>div>img:hover {}
 
 hr.color {
   border: 10px #c40ebb;
   border-radius: 5px;
 }
+
 /*header*/
-h3{
+
+h3 {
   margin: 0px 0px 15px;
   color: #0b0f28;
   font-weight: 700;
 }
 
-.section {
+/* .section {
   position: relative;
   padding: 90px 0px;
-}
+} */
 
 .section-title {
   text-align: center;
-  margin-top:30px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .section-title .title {
@@ -80,22 +78,10 @@ h3{
 
 .section-title .title>span {
   transform: translateY(-40%);
-
   z-index: 10;
-  
   transition: 1.0s;
-
 }
 
 .section-title .title>span.appear {
   transform: translateY(50%);
 }
-
-
-
-
-
-
-
-
- 
