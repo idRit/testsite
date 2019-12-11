@@ -7,7 +7,6 @@
     animation: blind-in 1s;
 }
 
-
 @-webkit-keyframes blind-in {
     0% {
         transform: scaleY(0);
