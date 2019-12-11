@@ -35,6 +35,15 @@ section {
 
 #mapid {
     height: 65vh;
+    z-index: -1;
+}
+
+#mapid2 {
+    height: 65vh;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .aboutContainer {
