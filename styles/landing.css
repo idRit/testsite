@@ -15,11 +15,19 @@ body {
 html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
     /* overflow: hidden; */
 }
 
 body {
     position: relative
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
 }
 
 .v-header {
@@ -247,7 +255,7 @@ label a {
     width: 10vw;
     border-width: 0px 5px 5px 0px;
     position: absolute;
-    top: 20%;
+    top: 80%;
     left: 50%;
     transform: rotate(45deg) translate(-50%, 0);
     -webkit-transform: rotate(45deg) translate(-50%, 0);
