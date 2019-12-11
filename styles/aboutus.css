@@ -35,6 +35,7 @@ section {
 
 #mapid {
     height: 65vh;
+    pointer-events: none;
     /* z-index: -1; */
 }
 
