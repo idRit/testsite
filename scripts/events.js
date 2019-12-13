@@ -1,7 +1,6 @@
-window.onscroll = function () { animateEvents() };
+setInterval(() => {
 
-function animateEvents() {
-
+    // Function to animate Events section
     let testDiv1 = document.getElementById("eventDiv1");
     let testDiv2 = document.getElementById("eventDiv2");
     let testDiv3 = document.getElementById("eventDiv3");
@@ -36,10 +35,12 @@ function animateEvents() {
         document.getElementById("eventDiv4").className = "";
     }
 
-    if (document.body.scrollTop > testDiv4.offsetTop - h || document.documentElement.scrollTop > testDiv4.offsetTop - h) {
+    if (document.body.scrollTop > testDiv5.offsetTop - h || document.documentElement.scrollTop > testDiv4.offsetTop - h) {
         document.getElementById("eventDiv5").className = "blind-content in origin-top";
     } else {
         document.getElementById("eventDiv5").className = "";
     }
 
-}
+}, 100);
+
+
