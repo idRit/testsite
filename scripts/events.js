@@ -41,6 +41,6 @@ setInterval(() => {
         document.getElementById("eventDiv5").className = "";
     }
 
-}, 100);
+}, 50);
 
 
