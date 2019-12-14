@@ -4,7 +4,7 @@
 
 .blind-content.in {
     -webkit-animation: blind-in 1s;
-    animation: blind-in 1s;
+    animation: blind-in .5s;
 }
 
 @-webkit-keyframes blind-in {
